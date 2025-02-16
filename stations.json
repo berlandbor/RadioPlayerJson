@@ -25,21 +25,6 @@
         "genre": "Релакс"
     },
     {
-        "name": "DI.FM Deep House",
-        "url": "https://prem1.di.fm:80/deephouse",
-        "genre": "Deep House"
-    },
-    {
-        "name": "DI.FM Chillout",
-        "url": "https://prem1.di.fm:80/chillout",
-        "genre": "Релакс"
-    },
-    {
-        "name": "DI.FM Trance",
-        "url": "https://prem1.di.fm:80/trance",
-        "genre": "Электронная музыка"
-    },
-    {
         "name": "Радио Эрмитаж",
         "url": "https://hermitage.hostingradio.ru/hermitage128.mp3",
         "genre": "Классическая музыка"
@@ -48,5 +33,20 @@
         "name": "Радио Мегаполис FM",
         "url": "https://megapolisfm.hostingradio.ru/megapolisfm128.mp3",
         "genre": "Клубная музыка"
+    },
+    {
+        "name": "Noise FM",
+        "url": "https://noisefm.ru:8000/stream",
+        "genre": "Электронная музыка"
+    },
+    {
+        "name": "Deep One Radio",
+        "url": "https://stream.deepone.ru/deep",
+        "genre": "Deep House"
+    },
+    {
+        "name": "Relax FM",
+        "url": "https://ic2.101.ru:8000/relax128",
+        "genre": "Релакс"
     }
 ]
