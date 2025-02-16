@@ -45,7 +45,7 @@
         "metaUrl": ""
     },
     {
-        "name": "Радио "Цой",
+        "name": "Радио Цой",
         "url": "https://pub0302.101.ru:8443/stream/pro/aac/64/103",
          "metaUrl": ""
     },
@@ -55,7 +55,7 @@
         "metaUrl": "https://api.radioparadise.com/track"
     },
     {
-        "name": "Радио "Energy"",
+        "name": "Радио Energy",
         "url": "https://pub0301.101.ru:8443/stream/air/mp3/256/99",
         "metaUrl": "https://streams.loungerradio.com/metadata"
     },
@@ -73,7 +73,7 @@
         "name": "Радио Эрмитаж (Jazz)",
         "url": "https://hermitage.hostingradio.ru/hermitage128.mp3",
         "metaUrl": ""
-    }/*,
+    },
     {
         "name": "Радио Maximum (Rock)",
         "url": "https://icecast.maxximumfm.cdnvideo.ru/maxximumfm",
@@ -128,5 +128,5 @@
         "name": "Ibiza Global Radio",
         "url": "https://ibizaglobalradio.streaming-pro.com:8024/stream",
         "metaUrl": ""
-    }*/
+    }
 ]
