@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Lounge Radio",
+        "url": "https://streams.loungerradio.com/lounge128.mp3",
+        "metaUrl": "https://streams.loungerradio.com/metadata"
+    },
+    {
+        "name": "Chillout Ibiza",
+        "url": "https://streaming.radionomy.com/JamendoLounge",
+        "metaUrl": ""
+    },
+    {
+        "name": "Radio Paradise",
+        "url": "https://stream.radioparadise.com/mellow-flac",
+        "metaUrl": "https://api.radioparadise.com/track"
+    },
+    {
+        "name": "Lo-Fi Beats",
+        "url": "https://radio.plaza.one/lofi.mp3",
+        "metaUrl": ""
+    },
+    {
+        "name": "Deep House",
+        "url": "https://radiorecord.hostingradio.ru/deep96.aacp",
+        "metaUrl": ""
+    }
+]

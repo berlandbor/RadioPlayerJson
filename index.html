@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎵 Радио Плеер</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #222;
+            color: white;
+            padding: 20px;
+        }
+        .player {
+            max-width: 400px;
+            margin: 20px auto;
+            background: #333;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        #station-name {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        audio {
+            width: 100%;
+        }
+        .controls {
+            margin-top: 15px;
+        }
+        button {
+            background: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .playlist {
+            margin-top: 20px;
+            max-height: 300px;
+            overflow-y: auto;
+            border: 1px solid #555;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .playlist button {
+            display: block;
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        .metadata {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🎧 Радио Плеер</h1>
+    
+    <div class="player">
+        <div id="station-name">Загрузка...</div>
+        <audio id="audio-player" controls></audio>
+
+        <div class="metadata">
+            <div id="track-info">🎵 Трек: Неизвестно</div>
+            <div id="artist-info">🎤 Исполнитель: Неизвестно</div>
+        </div>
+
+        <div class="controls">
+            <button onclick="prevStation()">◀ Пред.</button>
+            <button onclick="togglePlay()">⏯ Играть/Пауза</button>
+            <button onclick="nextStation()">След. ▶</button>
+        </div>
+
+        <div class="playlist">
+            <h3>📻 Плейлист</h3>
+            <div id="station-list">Загрузка станций...</div>
+        </div>
+    </div>
+
+    <script>
+        let stations = [];
+        let currentStationIndex = 0;
+        const audioPlayer = document.getElementById("audio-player");
+        const stationName = document.getElementById("station-name");
+        const trackInfo = document.getElementById("track-info");
+        const artistInfo = document.getElementById("artist-info");
+        const stationList = document.getElementById("station-list");
+
+        async function loadStations() {
+            try {
+                const response = await fetch("stations.json");
+                stations = await response.json();
+                generatePlaylist();
+                loadLastStation();
+            } catch (error) {
+                console.error("Ошибка загрузки плейлиста:", error);
+                stationList.textContent = "Не удалось загрузить плейлист.";
+            }
+        }
+
+        function generatePlaylist() {
+            stationList.innerHTML = "";
+            stations.forEach((station, index) => {
+                let button = document.createElement("button");
+                button.textContent = "▶ " + station.name;
+                button.onclick = () => setStation(index);
+                stationList.appendChild(button);
+            });
+        }
+
+        function loadStation(index) {
+            currentStationIndex = index;
+            const station = stations[currentStationIndex];
+            stationName.textContent = station.name;
+            audioPlayer.src = station.url;
+            audioPlayer.play().catch(err => console.log("Ошибка воспроизведения:", err));
+            localStorage.setItem("lastStation", index);
+            fetchMetadata();
+        }
+
+        function togglePlay() {
+            if (audioPlayer.paused) {
+                audioPlayer.play();
+            } else {
+                audioPlayer.pause();
+            }
+        }
+
+        function nextStation() {
+            currentStationIndex = (currentStationIndex + 1) % stations.length;
+            loadStation(currentStationIndex);
+        }
+
+        function prevStation() {
+            currentStationIndex = (currentStationIndex - 1 + stations.length) % stations.length;
+            loadStation(currentStationIndex);
+        }
+
+        function setStation(index) {
+            loadStation(index);
+        }
+
+        function loadLastStation() {
+            const lastStation = localStorage.getItem("lastStation");
+            if (lastStation !== null && stations.length > 0) {
+                loadStation(parseInt(lastStation));
+            } else {
+                loadStation(0);
+            }
+        }
+
+        function fetchMetadata() {
+            const station = stations[currentStationIndex];
+            if (!station.metaUrl) return;
+
+            fetch(station.metaUrl)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.title) trackInfo.textContent = "🎵 Трек: " + data.title;
+                    if (data.artist) artistInfo.textContent = "🎤 Исполнитель: " + data.artist;
+                })
+                .catch(error => console.log("Ошибка загрузки метаданных:", error));
+        }
+
+        window.onload = loadStations;
+        setInterval(fetchMetadata, 10000);
+    </script>
+
+</body>
+</html>
