@@ -15,13 +15,13 @@
         "metaUrl": ""
     },
     {
-        "name": "Like FM",
-        "url": "https://pub0301.101.ru:8443/stream/air/mp3/256/219",
+        "name": "Радио Дача",
+        "url": "https://icecast.radiodacha.ru:8000/dacha",
         "metaUrl": ""
     },
     {
-        "name": "Relax FM",
-        "url": "https://pub0301.101.ru:8443/stream/air/mp3/256/200",
+        "name": "Ретро FM",
+        "url": "https://retroserver.streamr.ru:8043/retro256",
         "metaUrl": ""
     },
     {
@@ -45,9 +45,9 @@
         "metaUrl": ""
     },
     {
-        "name": "Радио Цой",
-        "url": "https://pub0302.101.ru:8443/stream/pro/aac/64/103",
-         "metaUrl": ""
+        "name": "Chillout Ibiza",
+        "url": "https://streaming.radionomy.com/JamendoLounge",
+        "metaUrl": ""
     },
     {
         "name": "Radio Paradise",
@@ -55,8 +55,8 @@
         "metaUrl": "https://api.radioparadise.com/track"
     },
     {
-        "name": "Радио Energy",
-        "url": "https://pub0301.101.ru:8443/stream/air/mp3/256/99",
+        "name": "Lounge Radio",
+        "url": "https://streams.loungerradio.com/lounge128.mp3",
         "metaUrl": "https://streams.loungerradio.com/metadata"
     },
     {
