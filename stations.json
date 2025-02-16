@@ -1,44 +1,52 @@
-{
-  "radio_stations": [
+[
     {
-      "name": "Deep House Radio",
-      "genre": "deep",
-      "url": "https://stream.deep-house-radio.com/live"
+        "name": "Радио Рекорд",
+        "url": "https://radiorecord.hostingradio.ru/rr_main96.aacp",
+        "genre": "Клубная музыка"
     },
     {
-      "name": "Deep FM",
-      "genre": "deep",
-      "url": "https://deepfm.com/stream"
+        "name": "DFM Deep",
+        "url": "https://dfm.hostingradio.ru/dfm_deep128.mp3",
+        "genre": "Deep House"
     },
     {
-      "name": "Elektronische Beats",
-      "genre": "электронная",
-      "url": "https://stream.elektronischebeats.com/live"
+        "name": "SoundPark Deep",
+        "url": "https://soundpark.hostingradio.ru/deep96.aacp",
+        "genre": "Deep House"
     },
     {
-      "name": "Ibiza Global Radio",
-      "genre": "электронная",
-      "url": "https://ibizaglobalradio.com/stream"
+        "name": "Радио Классика",
+        "url": "https://ic2.101.ru:8000/classic128",
+        "genre": "Классическая музыка"
     },
     {
-      "name": "Chillout Lounge",
-      "genre": "релакс",
-      "url": "https://chilloutlounge.com/stream"
+        "name": "Chillout Radio",
+        "url": "https://chillout.hostingradio.ru:8000/chillout128.mp3",
+        "genre": "Релакс"
     },
     {
-      "name": "Relax FM",
-      "genre": "релакс",
-      "url": "https://relaxfm.com/stream"
+        "name": "DI.FM Deep House",
+        "url": "https://prem1.di.fm:80/deephouse",
+        "genre": "Deep House"
     },
     {
-      "name": "Classic FM",
-      "genre": "классика",
-      "url": "https://classicfm.com/stream"
+        "name": "DI.FM Chillout",
+        "url": "https://prem1.di.fm:80/chillout",
+        "genre": "Релакс"
     },
     {
-      "name": "Beethoven Radio",
-      "genre": "классика",
-      "url": "https://beethoven-radio.com/stream"
+        "name": "DI.FM Trance",
+        "url": "https://prem1.di.fm:80/trance",
+        "genre": "Электронная музыка"
+    },
+    {
+        "name": "Радио Эрмитаж",
+        "url": "https://hermitage.hostingradio.ru/hermitage128.mp3",
+        "genre": "Классическая музыка"
+    },
+    {
+        "name": "Радио Мегаполис FM",
+        "url": "https://megapolisfm.hostingradio.ru/megapolisfm128.mp3",
+        "genre": "Клубная музыка"
     }
-  ]
-}
+]
