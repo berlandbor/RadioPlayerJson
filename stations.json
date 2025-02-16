@@ -1,132 +1,44 @@
-[
+{
+  "radio_stations": [
     {
-        "name": "Радио Рекорд",
-        "url": "https://radiorecord.hostingradio.ru/rr_main96.aacp",
-        "metaUrl": "https://www.radiorecord.ru/api/station"
+      "name": "Deep House Radio",
+      "genre": "deep",
+      "url": "https://stream.deep-house-radio.com/live"
     },
     {
-        "name": "Европа Плюс",
-        "url": "https://ep128.hostingradio.ru:8030/ep128",
-        "metaUrl": ""
+      "name": "Deep FM",
+      "genre": "deep",
+      "url": "https://deepfm.com/stream"
     },
     {
-        "name": "Наше Радио",
-        "url": "https://nashe1.hostingradio.ru:80/nashe-128.mp3",
-        "metaUrl": ""
+      "name": "Elektronische Beats",
+      "genre": "электронная",
+      "url": "https://stream.elektronischebeats.com/live"
     },
     {
-        "name": "Радио Дача",
-        "url": "https://icecast.radiodacha.ru:8000/dacha",
-        "metaUrl": ""
+      "name": "Ibiza Global Radio",
+      "genre": "электронная",
+      "url": "https://ibizaglobalradio.com/stream"
     },
     {
-        "name": "Ретро FM",
-        "url": "https://retroserver.streamr.ru:8043/retro256",
-        "metaUrl": ""
+      "name": "Chillout Lounge",
+      "genre": "релакс",
+      "url": "https://chilloutlounge.com/stream"
     },
     {
-        "name": "Радио Шансон",
-        "url": "https://chanson.hostingradio.ru:8041/chanson128.mp3",
-        "metaUrl": ""
+      "name": "Relax FM",
+      "genre": "релакс",
+      "url": "https://relaxfm.com/stream"
     },
     {
-        "name": "Record Chill-Out",
-        "url": "https://radiorecord.hostingradio.ru/chil96.aacp",
-        "metaUrl": ""
+      "name": "Classic FM",
+      "genre": "классика",
+      "url": "https://classicfm.com/stream"
     },
     {
-        "name": "Record Deep",
-        "url": "https://radiorecord.hostingradio.ru/deep96.aacp",
-        "metaUrl": ""
-    },
-    {
-        "name": "Record Trancehouse",
-        "url": "https://radiorecord.hostingradio.ru/trancehouse96.aacp",
-        "metaUrl": ""
-    },
-    {
-        "name": "Chillout Ibiza",
-        "url": "https://streaming.radionomy.com/JamendoLounge",
-        "metaUrl": ""
-    },
-    {
-        "name": "Radio Paradise",
-        "url": "https://stream.radioparadise.com/mellow-flac",
-        "metaUrl": "https://api.radioparadise.com/track"
-    },
-    {
-        "name": "Lounge Radio",
-        "url": "https://streams.loungerradio.com/lounge128.mp3",
-        "metaUrl": "https://streams.loungerradio.com/metadata"
-    },
-    {
-        "name": "Lo-Fi Beats",
-        "url": "https://radio.plaza.one/lofi.mp3",
-        "metaUrl": ""
-    },
-    {
-        "name": "Smooth Jazz",
-        "url": "https://us1.internet-radio.com/proxy/smoothjazz?mp=/stream",
-        "metaUrl": ""
-    },
-    {
-        "name": "Радио Эрмитаж (Jazz)",
-        "url": "https://hermitage.hostingradio.ru/hermitage128.mp3",
-        "metaUrl": ""
-    },
-    {
-        "name": "Радио Maximum (Rock)",
-        "url": "https://icecast.maxximumfm.cdnvideo.ru/maxximumfm",
-        "metaUrl": ""
-    },
-    {
-        "name": "Радио Ultra (Alternative)",
-        "url": "https://ic2.101.ru:8000/ultra128",
-        "metaUrl": ""
-    },
-    {
-        "name": "Радио Relax FM",
-        "url": "https://ic2.101.ru:8000/relax128",
-        "metaUrl": ""
-    },
-    {
-        "name": "Радио Вести FM",
-        "url": "https://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_128kbps",
-        "metaUrl": ""
-    },
-    {
-        "name": "Радио Маяк",
-        "url": "https://icecast.vgtrk.cdnvideo.ru/mayakfm_mp3_128kbps",
-        "metaUrl": ""
-    },
-    {
-        "name": "Радио Классика",
-        "url": "https://ic2.101.ru:8000/classic128",
-        "metaUrl": ""
-    },
-    {
-        "name": "Радио ENERGY (NRJ)",
-        "url": "https://ic7.101.ru:8000/nrj128",
-        "metaUrl": ""
-    },
-    {
-        "name": "Радио Джаз 89.1 FM",
-        "url": "https://nashe1.hostingradio.ru/jazz-128.mp3",
-        "metaUrl": ""
-    },
-    {
-        "name": "Радио Монте-Карло",
-        "url": "https://icecast.radiomontecarlo.net:8000/MonteCarlo",
-        "metaUrl": ""
-    },
-    {
-        "name": "Cinemix Radio (OST Music)",
-        "url": "https://streams.cinemix.fm/cinemix.mp3",
-        "metaUrl": ""
-    },
-    {
-        "name": "Ibiza Global Radio",
-        "url": "https://ibizaglobalradio.streaming-pro.com:8024/stream",
-        "metaUrl": ""
+      "name": "Beethoven Radio",
+      "genre": "классика",
+      "url": "https://beethoven-radio.com/stream"
     }
-]
+  ]
+}
