@@ -15,13 +15,13 @@
         "metaUrl": ""
     },
     {
-        "name": "Радио Дача",
-        "url": "https://icecast.radiodacha.ru:8000/dacha",
+        "name": "Like FM",
+        "url": "https://pub0301.101.ru:8443/stream/air/mp3/256/219",
         "metaUrl": ""
     },
     {
-        "name": "Ретро FM",
-        "url": "https://retroserver.streamr.ru:8043/retro256",
+        "name": "Relax FM",
+        "url": https://pub0301.101.ru:8443/stream/air/mp3/256/200",
         "metaUrl": ""
     },
     {
@@ -45,9 +45,9 @@
         "metaUrl": ""
     },
     {
-        "name": "Chillout Ibiza",
-        "url": "https://streaming.radionomy.com/JamendoLounge",
-        "metaUrl": ""
+        "name": "Радио "Цой",
+        "url": "https://pub0302.101.ru:8443/stream/pro/aac/64/103",
+         "metaUrl": ""
     },
     {
         "name": "Radio Paradise",
@@ -55,8 +55,8 @@
         "metaUrl": "https://api.radioparadise.com/track"
     },
     {
-        "name": "Lounge Radio",
-        "url": "https://streams.loungerradio.com/lounge128.mp3",
+        "name": "Радио "Energy"",
+        "url": "https://pub0301.101.ru:8443/stream/air/mp3/256/99",
         "metaUrl": "https://streams.loungerradio.com/metadata"
     },
     {
@@ -73,7 +73,7 @@
         "name": "Радио Эрмитаж (Jazz)",
         "url": "https://hermitage.hostingradio.ru/hermitage128.mp3",
         "metaUrl": ""
-    },
+    }/*,
     {
         "name": "Радио Maximum (Rock)",
         "url": "https://icecast.maxximumfm.cdnvideo.ru/maxximumfm",
@@ -128,5 +128,5 @@
         "name": "Ibiza Global Radio",
         "url": "https://ibizaglobalradio.streaming-pro.com:8024/stream",
         "metaUrl": ""
-    }
+    }*/
 ]
