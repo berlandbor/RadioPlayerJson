@@ -6,32 +6,27 @@
     },
     {
         "name": "Европа Плюс",
-        "url": "http://ep128.hostingradio.ru:8030/ep128",
-        "metaUrl": ""
-    },
-    {
-        "name": "Русское Радио",
-        "url": "http://icecast.russkoeradio.cdnvideo.ru:8000/rr.mp3",
+        "url": "https://ep128.hostingradio.ru:8030/ep128",
         "metaUrl": ""
     },
     {
         "name": "Наше Радио",
-        "url": "http://nashe1.hostingradio.ru:80/nashe-128.mp3",
+        "url": "https://nashe1.hostingradio.ru:80/nashe-128.mp3",
         "metaUrl": ""
     },
     {
         "name": "Радио Дача",
-        "url": "http://icecast.radiodacha.ru:8000/dacha",
+        "url": "https://icecast.radiodacha.ru:8000/dacha",
         "metaUrl": ""
     },
     {
         "name": "Ретро FM",
-        "url": "http://retroserver.streamr.ru:8043/retro256",
+        "url": "https://retroserver.streamr.ru:8043/retro256",
         "metaUrl": ""
     },
     {
         "name": "Радио Шансон",
-        "url": "http://chanson.hostingradio.ru:8041/chanson128.mp3",
+        "url": "https://chanson.hostingradio.ru:8041/chanson128.mp3",
         "metaUrl": ""
     },
     {
@@ -70,11 +65,6 @@
         "metaUrl": ""
     },
     {
-        "name": "Deep House",
-        "url": "https://radiorecord.hostingradio.ru/deep96.aacp",
-        "metaUrl": ""
-    },
-    {
         "name": "Smooth Jazz",
         "url": "https://us1.internet-radio.com/proxy/smoothjazz?mp=/stream",
         "metaUrl": ""
@@ -86,52 +76,52 @@
     },
     {
         "name": "Радио Maximum (Rock)",
-        "url": "http://icecast.maxximumfm.cdnvideo.ru/maxximumfm",
+        "url": "https://icecast.maxximumfm.cdnvideo.ru/maxximumfm",
         "metaUrl": ""
     },
     {
         "name": "Радио Ultra (Alternative)",
-        "url": "http://ic2.101.ru:8000/ultra128",
+        "url": "https://ic2.101.ru:8000/ultra128",
         "metaUrl": ""
     },
     {
         "name": "Радио Relax FM",
-        "url": "http://ic2.101.ru:8000/relax128",
+        "url": "https://ic2.101.ru:8000/relax128",
         "metaUrl": ""
     },
     {
         "name": "Радио Вести FM",
-        "url": "http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_128kbps",
+        "url": "https://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_128kbps",
         "metaUrl": ""
     },
     {
         "name": "Радио Маяк",
-        "url": "http://icecast.vgtrk.cdnvideo.ru/mayakfm_mp3_128kbps",
+        "url": "https://icecast.vgtrk.cdnvideo.ru/mayakfm_mp3_128kbps",
         "metaUrl": ""
     },
     {
         "name": "Радио Классика",
-        "url": "http://ic2.101.ru:8000/classic128",
+        "url": "https://ic2.101.ru:8000/classic128",
         "metaUrl": ""
     },
     {
         "name": "Радио ENERGY (NRJ)",
-        "url": "http://ic7.101.ru:8000/nrj128",
+        "url": "https://ic7.101.ru:8000/nrj128",
         "metaUrl": ""
     },
     {
         "name": "Радио Джаз 89.1 FM",
-        "url": "http://nashe1.hostingradio.ru/jazz-128.mp3",
+        "url": "https://nashe1.hostingradio.ru/jazz-128.mp3",
         "metaUrl": ""
     },
     {
         "name": "Радио Монте-Карло",
-        "url": "http://icecast.radiomontecarlo.net:8000/MonteCarlo",
+        "url": "https://icecast.radiomontecarlo.net:8000/MonteCarlo",
         "metaUrl": ""
     },
     {
         "name": "Cinemix Radio (OST Music)",
-        "url": "http://streams.cinemix.fm/cinemix.mp3",
+        "url": "https://streams.cinemix.fm/cinemix.mp3",
         "metaUrl": ""
     },
     {
